@@ -72,6 +72,13 @@ h1 {
     color: gray;
 }
 
+button {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    width: 70%;
+}
+
 @media (max-width: 600px) {
     .toggle-button {
         display: flex;
