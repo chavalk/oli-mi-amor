@@ -72,6 +72,10 @@ h1 {
     color: gray;
 }
 
+.home-body {
+    padding-top: 10em;
+}
+
 button {
     background-color: black;
     color: white;
