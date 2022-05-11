@@ -61,6 +61,17 @@ body {
     border-radius: 10px;
 }
 
+h1 {
+    text-align: center;
+}
+
+.header {
+    font-size: 25px;
+    letter-spacing: 0.4em;
+    font-style: italic;
+    color: lightslategray;
+}
+
 @media (max-width: 600px) {
     .toggle-button {
         display: flex;
