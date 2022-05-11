@@ -57,7 +57,7 @@ body {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: black;
+    background-color: gray;
     border-radius: 10px;
 }
 
@@ -94,7 +94,7 @@ button {
     font-size: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .toggle-button {
         display: flex;
     }
