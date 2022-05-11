@@ -74,6 +74,7 @@ h1 {
 
 .home-body {
     padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 button {
@@ -81,6 +82,16 @@ button {
     color: white;
     font-style: italic;
     width: 70%;
+}
+
+.icons {
+    font-size: 25px;
+    color: gray;
+}
+
+.copyright {
+    color: gray;
+    font-size: 20px;
 }
 
 @media (max-width: 600px) {
