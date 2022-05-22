@@ -11,14 +11,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
+    background-color: #ffffff;
     color: white;
-    padding-top: 1.9rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
 }
 
-.brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
+.brand-logo {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+}
+
+.logo-image {
+    width: 7.813rem;
+    height: 7.813rem;
 }
 
 .navbar-links ul {
@@ -33,7 +40,7 @@ body {
 
 .navbar-links li a {
     text-decoration: none;
-    color: gray;
+    color: #626366;
     padding: 1rem;
     display: block;
     font-size: 1.2rem;
@@ -45,8 +52,8 @@ body {
 
 .toggle-button {
     position: absolute;
-    top: 2.5rem;
-    right: 2.5rem;
+    top: 7.5rem;
+    right: 6rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -57,7 +64,7 @@ body {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: gray;
+    background-color: #626366;
     border-radius: 10px;
 }
 
@@ -95,6 +102,11 @@ button {
 }
 
 @media (max-width: 980px) {
+    .logo-image {
+        width: 15rem;
+        height: 15rem;
+    }
+
     .toggle-button {
         display: flex;
     }
@@ -107,6 +119,7 @@ button {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        padding-bottom: 15rem;
     }
 
     .navbar-links ul {
