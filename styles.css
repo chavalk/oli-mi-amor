@@ -76,9 +76,11 @@ body {
 footer {
     background-color: #c8a094;
     color: #ffffff;
+    padding-bottom: 1.5rem;
 }
 
 .contact-info {
+    padding-top: 3rem;
     padding-bottom: 5rem;
 }
 
@@ -130,5 +132,17 @@ footer {
     .navbar-links.active {
         display: flex;
         padding-top: 4rem;
+    }
+
+    .contact-info {
+        font-size: 5rem;
+    }
+
+    .icons {
+        font-size: 100px;
+    }
+
+    .copyright {
+        font-size: 70px;
     }
 }
