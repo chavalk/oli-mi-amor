@@ -75,15 +75,20 @@ body {
 
 footer {
     background-color: #c8a094;
+    color: #ffffff;
+}
+
+.contact-info {
+    padding-bottom: 5rem;
 }
 
 .icons {
     font-size: 25px;
     color: #ffffff;
+    padding-bottom: 1rem;
 }
 
 .copyright {
-    color: #ffffff;
     font-size: 20px;
 }
 
