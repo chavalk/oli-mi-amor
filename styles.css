@@ -68,11 +68,8 @@ body {
     border-radius: 10px;
 }
 
-button {
-    background-color: black;
-    color: white;
-    font-style: italic;
-    width: 70%;
+.cards {
+    margin-top: 7rem;
 }
 
 .icons {
