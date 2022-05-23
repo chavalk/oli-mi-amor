@@ -68,22 +68,6 @@ body {
     border-radius: 10px;
 }
 
-h1 {
-    text-align: center;
-}
-
-.header {
-    font-size: 25px;
-    letter-spacing: 0.4em;
-    font-style: italic;
-    color: gray;
-}
-
-.home-body {
-    padding-top: 10em;
-    padding-bottom: 10em;
-}
-
 button {
     background-color: black;
     color: white;
