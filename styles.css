@@ -70,15 +70,20 @@ body {
 
 .cards {
     margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+footer {
+    background-color: #c8a094;
 }
 
 .icons {
     font-size: 25px;
-    color: gray;
+    color: #ffffff;
 }
 
 .copyright {
-    color: gray;
+    color: #ffffff;
     font-size: 20px;
 }
 
