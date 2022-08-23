@@ -142,6 +142,10 @@ footer {
         padding-top: 4rem;
     }
 
+    .picture {
+        width: 100%;
+    }
+    
     .top-container {
         margin-left: 5.5rem;
     }
