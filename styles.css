@@ -84,6 +84,10 @@ footer {
     padding-bottom: 9rem;
 }
 
+.icons-div {
+    text-align: right;
+}
+
 .icons {
     font-size: 25px;
     color: #ffffff;
@@ -138,15 +142,48 @@ footer {
         padding-top: 4rem;
     }
 
+    .top-container {
+        margin-left: 5.5rem;
+    }
+
     .contact-info {
-        font-size: 5rem;
+        padding-top: 8rem;
+        font-size: 2.5rem;
+        padding-bottom: 20rem;
+    }
+
+    .phone-number {
+        padding-bottom: 17rem;
+    }
+
+    .policies {
+        padding-bottom: 3rem;
+    }
+
+    .search {
+        padding-bottom: 3rem;
+    }
+
+    .deliveries-policy {
+        padding-bottom: 3rem;
+    }
+
+    .privacy-policy {
+        padding-bottom: 15rem;
+    }
+
+    .icons-div {
+        text-align: center;
     }
 
     .icons {
-        font-size: 100px;
+        padding-top: 5rem;
+        font-size: 60px;
+        padding-bottom: 15rem;
     }
 
     .copyright {
-        font-size: 70px;
+        font-size: 30px;
+        padding-bottom: 5rem;
     }
 }
