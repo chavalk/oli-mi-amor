@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #FAF0E6;
 }
 
 .navbar {
@@ -68,9 +69,31 @@ body {
     border-radius: 10px;
 }
 
+.header-div {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.header {
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 0.4rem;
+    color: #626366;
+}
+
+.first-button {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.mid-pic {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 .cards {
-    margin-top: 7rem;
-    margin-bottom: 7rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 footer {
@@ -140,6 +163,29 @@ footer {
     .navbar-links.active {
         display: flex;
         padding-top: 4rem;
+    }
+
+    .header {
+        font-size: 60px;
+        font-style: italic;
+        letter-spacing: 0.4rem;
+        color: #626366;
+    }
+
+    .first-button {
+        font-style: italic;
+        margin-bottom: 3rem;
+        font-size: 60px;
+    }
+
+    .left-pic {
+        margin-bottom: 3rem;
+    }
+
+    .mid-pic {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 3rem;
     }
 
     .picture {
