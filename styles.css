@@ -169,6 +169,14 @@ footer {
         padding-top: 4rem;
     }
 
+    .label-header {
+        font-size: 5rem;
+    }
+
+    .label-paragraph {
+        font-size: 3rem;
+    }
+
     .header {
         font-size: 60px;
         font-style: italic;
