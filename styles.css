@@ -169,6 +169,11 @@ footer {
         padding-top: 4rem;
     }
 
+    #first-indicator, #second-indicator, #third-indicator {
+        height: 10px;
+        width: 80px;
+    }
+
     .label-header {
         font-size: 5rem;
     }
