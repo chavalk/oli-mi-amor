@@ -81,7 +81,7 @@ body {
     color: #626366;
 }
 
-.main-container {
+.main-container, .main-container-about {
     background-color: #FAF0E6;
 }
 
@@ -259,6 +259,10 @@ footer {
         padding-bottom: 5rem;
     }
 
+    .main-container-about {
+        padding-bottom: 3rem;
+    }
+
     .about-paragraph {
         padding-top: 5rem;
         padding-left: 3rem;
@@ -271,6 +275,5 @@ footer {
         margin-left: 3rem;
         margin-top: 3rem;
         margin-right: 3rem;
-        margin-bottom: 3rem;
     }
 }
