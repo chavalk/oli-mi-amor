@@ -208,19 +208,29 @@ footer {
         font-size: 60px;
     }
 
-    .modal-button {
-        padding-top: 6rem;
-        padding-right: 4rem;
-    }
-
     .title-modal {
         padding-left: 5rem;
         padding-top: 5rem;
         font-size: 60px;
     }
 
+    .close-button-div {
+        padding-top: 6rem;
+        padding-right: 4rem;
+    }
+
     .close-button {
         font-size: 40px;
+    }
+
+    .full-name-label {
+        padding-left: 5.5rem;
+        padding-top: 7rem;
+        font-size: 40px;
+    }
+
+    .name-input {
+        height: 6rem;
     }
 
     .first-button {
