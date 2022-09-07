@@ -194,6 +194,20 @@ footer {
         color: #626366;
     }
 
+    .contact-button-div {
+        background-color: #FAF0E6;
+    }
+
+    .contact-button {
+        font-style: italic;
+        padding-left: 7rem;
+        padding-top: 2rem;
+        padding-right: 7rem;
+        padding-bottom: 2rem;
+        margin-top: 3rem;
+        font-size: 60px;
+    }
+
     .first-button {
         font-style: italic;
         margin-bottom: 3rem;
