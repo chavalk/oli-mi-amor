@@ -208,6 +208,21 @@ footer {
         font-size: 60px;
     }
 
+    .modal-button {
+        padding-top: 6rem;
+        padding-right: 4rem;
+    }
+
+    .title-modal {
+        padding-left: 5rem;
+        padding-top: 5rem;
+        font-size: 60px;
+    }
+
+    .close-button {
+        font-size: 40px;
+    }
+
     .first-button {
         font-style: italic;
         margin-bottom: 3rem;
