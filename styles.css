@@ -223,14 +223,17 @@ footer {
         font-size: 40px;
     }
 
-    .full-name-label {
+    .primary-label {
         padding-left: 5.5rem;
         padding-top: 7rem;
         font-size: 40px;
     }
 
-    .name-input {
-        height: 6rem;
+    .first-last-label {
+        font-size: 35px;
+    }
+    .resize-input {
+        font-size: 4rem;
     }
 
     .first-button {
