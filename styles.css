@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #FAF0E6;
 }
 
 .navbar {
@@ -322,7 +323,14 @@ footer {
     }
 
     .main-container-about {
-        padding-bottom: 3rem;
+        padding-bottom: 15rem;
+    }
+
+    .about-card {
+        margin-left: 3rem;
+        margin-top: 10rem;
+        margin-right: 3rem;
+        margin-bottom: 7rem;
     }
 
     .about-paragraph {
@@ -331,11 +339,5 @@ footer {
         padding-right: 3rem;
         font-size: 3.5rem;
         color: #626366;
-    }
-
-    .about-card {
-        margin-left: 3rem;
-        margin-top: 3rem;
-        margin-right: 3rem;
     }
 }
