@@ -249,6 +249,13 @@ footer {
         font-size: 2.9rem;
     }
 
+    .modal-submit-button {
+        font-size: 2.9rem;
+        padding: 1.5rem 5rem;
+        margin-top: 7rem;
+        margin-bottom: 5rem;
+    }
+
     .first-button {
         font-style: italic;
         margin-bottom: 3rem;
