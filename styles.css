@@ -232,8 +232,21 @@ footer {
     .first-last-label {
         font-size: 35px;
     }
+
     .resize-input {
         font-size: 4rem;
+    }
+
+    .select-div {
+        font-size: 45px;
+    }
+
+    .checkbox-div {
+        font-size: 38px;
+    }
+
+    .resize-input-placeholder {
+        font-size: 2.9rem;
     }
 
     .first-button {

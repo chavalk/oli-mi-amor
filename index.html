@@ -84,19 +84,22 @@
 
     <!-- Button trigger modal -->
     <div class="d-flex justify-content-center contact-button-div">
-        <button type="button" class="btn btn-dark contact-button rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-dark contact-button rounded-pill" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
             Contact Us
         </button>
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow:auto;">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        style="overflow:auto;">
         <div class="modal-dialog modal-fullscreen-lg-down modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title title-modal" id="exampleModalLabel">Oli Mi Amor Contact Form</h5>
                     <div class="close-button-div">
-                        <button type="button" class="btn-close close-button" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close close-button" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
                     </div>
                 </div>
                 <div class="modal-body">
@@ -157,6 +160,104 @@
                             <div class="col-sm-1"></div>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control resize-input">
+                                <label for="" class="form-label first-last-label">Address 1</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control resize-input">
+                                <label for="" class="form-label first-last-label">Address 2</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control resize-input">
+                                <label for="" class="form-label first-last-label">City</label>
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control resize-input">
+                                <label for="" class="form-label first-last-label">State/Province</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control resize-input">
+                                <label for="" class="form-label first-last-label">Country</label>
+                            </div>
+                        </div>
+                        <label for="" class="form-label primary-label">Event Type</label>
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-7">
+                                <select class="form-select select-div" aria-label="Default select example">
+                                    <option selected>Birthday</option>
+                                    <option value="1">Anniversary</option>
+                                    <option value="2">Corporate</option>
+                                    <option value="3">Baby Shower / Reveal</option>
+                                    <option value="3">Wedding / Engagement</option>
+                                    <option value="3">School / University</option>
+                                    <option value="3">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <label for="" class="form-label primary-label">Event Budget</label>
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <select class="form-select select-div" aria-label="Default select example">
+                                    <option selected>$100 or less</option>
+                                    <option value="1">$100 - $500</option>
+                                    <option value="2">$500 - $1000</option>
+                                    <option value="3">$1000 - $1500</option>
+                                    <option value="3">$1500 +</option>
+                                </select>
+                            </div>
+                        </div>
+                        <label for="" class="form-label primary-label">Services you're interested in (choose all that
+                            apply)</label>
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-7">
+                                <div class="form-check checkbox-div">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Balloon Garlands
+                                    </label>
+                                </div>
+                                <div class="form-check checkbox-div">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Balloon Mosaics
+                                    </label>
+                                </div>
+                                <div class="form-check checkbox-div">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Marquee Numbers & Letters
+                                    </label>
+                                </div>
+                                <div class="form-check checkbox-div">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Rentals
+                                    </label>
+                                </div>
+                                <div class="form-check checkbox-div">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Other
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <label for="" class="form-label primary-label">Additional Notes</label>
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control resize-input-placeholder" placeholder="Anything else you'd like to share with us">
                             </div>
                         </div>
                     </form>
